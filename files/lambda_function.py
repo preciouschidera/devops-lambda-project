@@ -15,7 +15,7 @@ def lambda_handler(event, context):
             f"🪣 Bucket: {bucket}\n"
             f"📄 File Name: {key}\n"
             f"🚀 Triggered via AWS Lambda & Terraform by Precious\n"
-            f"💜 Built with love."
+            f"💜 Built witth love."
         )
 
         print(message)
@@ -29,6 +29,8 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps('🎉 Hello from Precious! Lambda is working with API Gateway.')
     }
+
+
 
 
 
