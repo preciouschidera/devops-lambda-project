@@ -1,0 +1,9 @@
+# Ignore Terraform files and large archives
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.zip
+*.log
+*.pyc
+__pycache__/
+
